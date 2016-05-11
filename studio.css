@@ -1,0 +1,43 @@
+body {
+  background-color: #FFCECE;
+  font-family: geneva;
+}
+
+h1 {
+  font-family: geneva;
+  color: white;
+  font-size: 50px;
+  text-align: center;
+}
+
+.core-lab {
+  margin-top: 30%;
+  text-align: center;
+  border-style: solid;
+  border-color: white;
+  padding: 20px;
+  width: 130px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.collapse-card {
+  background-color: white;
+  border-bottom: 1px solid #FFCECE;
+  cursor: pointer;
+  color: #A2A2A2;
+  margin-left: 400px;
+  margin-right: 400px;
+  padding: 30px;
+}
+
+.collapse-card .body {
+  display: none;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.collapse-card.active {
+  margin-right: 400px;
+  margin-left: 400px;
+}
